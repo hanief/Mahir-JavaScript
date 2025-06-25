@@ -1,56 +1,39 @@
-# Eloquent JavaScript
+# Mahir JavaScript
 
-These are the sources used to build the fourth edition of Eloquent
-JavaScript (https://eloquentjavascript.net).
+Ini adalah sumber yang digunakan untuk membangun edisi keempat dari Mahir Javascript (https://mahirjavascript.net).
 
-Feedback welcome, in the form of issues and pull requests.
+Ini adalah terjemahan dari buku Eloquent Javascript (https://eloquentjavascript.net).
 
-## Building
+Kami menyambut baik masukan, silakan membuat *issues* dan *pull request*.
 
-This builds the HTML output in `html/`, where `make` is GNU make:
+## Menyusun buku
+
+Untuk menyusun buku menjadi keluaran HTML di `html/`, kita bisa menggunakan make:
 
     npm install
     make html
 
-To build the PDF file (don't bother trying this unless you really need
-it, since this list has probably bitrotted again and getting all this
-set up is a pain):
+Untuk membuat berkas PDF (ini tidak disarankan kecuali anda benar-benar membutuhkannya, sebab daftar ini mungkin akan kadaluwarsa lagi dan untuk menyusun ulangnya agak menyulitkan):
 
     apt-get install texlive texlive-xetex fonts-inconsolata fonts-symbola texlive-lang-chinese inkscape
     make book.pdf
 
-## Translating
+## Menerjemahkan
 
-Translations are very much welcome. The license this book is published
-under allows non-commercial derivations, which includes open
-translations. If you do one, let me know, and I'll add a link to the
-website.
+Kami menyambut baik bantuan penerjemahan. Lisensi buku ini mengizinkan turunan non-komersial, termasuk terjemahan. Jika anda telah selesai menerjemahkan, silakan kabari saya, dan saya akan menambahkan tautan ke situs.
 
-A note of caution though: This text consists of about 130 000 words,
-the paper book is 400 pages. That's a lot of text, which will take a
-lot of time to translate.
+Saya ingin memperingatkan anda: teks ini mengandung sekitar 130 000 kata, dan bukunya mengandung sekitar 400 halaman. Itu adalah jumlah tulisan yang cukup banyak, yang akan membutuhkan waktu yang cukup banyak untuk penerjemahannya.
 
-If that doesn't scare you off, the recommended way to go about a
-translation is:
+Jika peringatan itu tidak menakutkan bagi anda, cara terbaik untuk menerjemahkan tulisan ini adalah:
 
- - Fork this repository on GitHub.
+ - *Fork* (Cabangkan) repositori ini di Github.
 
- - Create an issue on the repository describing your plan to translate.
+ - Buat sebuah *Issue* di respositori ini yang menjelaskan rencana penerjemahan yang akan anda lakukan.
 
- - Translate the `.md` files in your fork. These are
-   [CommonMark](https://commonmark.org/) formatted, with a few
-   extensions. You may consider omitting the index terms (indicated
-   with double parentheses and `{{index ...}}` syntax) from your
-   translation, since that's mostly relevant for print output.
+ - Terjemahkan berkas `.md` di percabangan anda. Berkas tersebut diformat menggunakan [CommonMark](https://commonmark.org), dengan beberapa tambahan ekstensi. Anda mungkin perlu mengecualikan istilah-istilah indeks (yang ditandai dengan kurung ganda dan sintaks `{{index ...}}`) dari terjemahan anda, karena hal itu lebih banyak berkaitan dengan keluaran cetak.
 
- - Publish somewhere online or ask me to host the result.
+ - Publikasikan terjemahan anda secara daring atau silakan minta saya untuk memuatnya.
 
-Doing this in public, and creating an issue that links to your work,
-helps avoid wasted effort, where multiple people start a translation
-to the same language (and possibly never finish it). (Since
-translations have to retain the license, it is okay to pick up someone
-else's translation and continue it, even when they have vanished from
-the internet.)
+Jika anda melakukan ini secara terbuka, dan membuat *issue* yang tertaut dengan pekerjaan anda, maka anda akan menghindari usaha yang sia-sia dimana beberapa orang yang berbeda memulai terjemahan untuk bahasa yang sama (dan mungkin tidak akan pernah menyelesaikannya). (Karena terjemahan memiliki lisensi yang sama, anda bebas untuk mengambil terjemahan orang lain dan melanjutkannya, bahkan jika terjemahan tersebut telah menghilang dari internet.)
 
-I am not interested in machine translations. Please only ask me to
-link your translation when it was done by actual people.
+Saya tidak tertarik dengan terjemahan menggunakan mesin / komputer. Mohon hanya meminta saya untuk menautkan terjemahan anda jika itu dilakukan oleh manusia.
