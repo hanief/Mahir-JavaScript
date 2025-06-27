@@ -1,20 +1,21 @@
 {{meta {load_files: ["code/intro.js"]}}}
 
-# Introduction
+# Pendahuluan
 
 {{quote {author: "Ellen Ullman", title: "Close to the Machine: Technophilia and Its Discontents", chapter: true}
 
-We think we are creating the system for our own purposes. We believe we are making it in our own image... But the computer is not really like us. It is a projection of a very slim part of ourselves: that portion devoted to logic, order, rule, and clarity.
+Kita berpikir bahwa kita membuat sistem tersebut untuk tujuan kita sendiri. Kita berpikir kita sedang membuatnya dari cerminan diri kita sendiri... Tetapi komputer sebenarnya tidak seperti kita sama sekali. Komputer adalah proyeksi dari bagian kecil saja dari diri kita: yaitu bagian yang berdedikasi terhadap logika, urutan, aturan, dan kejelasan.
 
 quote}}
 
 {{figure {url: "img/chapter_picture_00.jpg", alt: "Illustration of a screwdriver next to a circuit board of about the same size", chapter: "framed"}}}
 
-This is a book about instructing ((computer))s. Computers are about as common as screwdrivers today, but they are quite a bit more complex, and making them do what you want them to do isn't always easy.
+Buku ini adalah mengenai memerintah ((komputer)). Saat ini, komputer ada dimana-mana seperti halnya sebuah obeng, tapi mereka memang lebih rumit, dan untuk membuatnya melakukan sesuatu seperti yang kita mau tidaklah selalu mudah.
 
-If the task you have for your computer is a common, well-understood one, such as showing you your email or acting like a calculator, you can open the appropriate ((application)) and get to work. But for unique or open-ended tasks, there often is no appropriate application.
+Jika pekerjaan yang anda berikan kepada komputer adalah pekerjaan yang umum, sangat dipahami orang, seperti halnya menunjukkan surel anda atau beraksi layaknya sebuah kalkulator, anda bisa saja membuka ((aplikasi)) yang cocok untuk pekerjaan itu dan anda bisa langsung bekerja. Tetapi untuk pekerjaan-pekerjaan yang unik atau terbuka akhirnya, seringkali tidak ada aplikasi yang cocok.
 
-That is where ((programming)) may come in. _Programming_ is the act of constructing a _program_—a set of precise instructions telling a computer what to do. Because computers are dumb, pedantic beasts, programming is fundamentally tedious and frustrating.
+Di sini lah ((pemrograman)) mungkin bisa hadir. _Pemrograman_ adalah sebuah pekerjaan untuk membangun sebuah _program)—sebuah kumpulan instruksi-instruksi presisi yang memberitahu komputer apa yang harus ia lakukan. Karena komputer itu monster yang bodoh dan pedantik, pemrograman pada dasarnya sebuah aktivitas yang melelahkan dan membuat frustasi.
+
 
 {{index [programming, "joy of"], speed}}
 
