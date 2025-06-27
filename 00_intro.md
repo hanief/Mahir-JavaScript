@@ -14,8 +14,7 @@ Buku ini adalah mengenai memerintah ((komputer)). Saat ini, komputer ada dimana-
 
 Jika pekerjaan yang anda berikan kepada komputer adalah pekerjaan yang umum, sangat dipahami orang, seperti halnya menunjukkan surel anda atau beraksi layaknya sebuah kalkulator, anda bisa saja membuka ((aplikasi)) yang cocok untuk pekerjaan itu dan anda bisa langsung bekerja. Tetapi untuk pekerjaan-pekerjaan yang unik atau terbuka akhirnya, seringkali tidak ada aplikasi yang cocok.
 
-Di sini lah ((pemrograman)) mungkin bisa hadir. _Pemrograman_ adalah sebuah pekerjaan untuk membangun sebuah _program)—sebuah kumpulan instruksi-instruksi presisi yang memberitahu komputer apa yang harus ia lakukan. Karena komputer itu monster yang bodoh dan pedantik, pemrograman pada dasarnya sebuah aktivitas yang melelahkan dan membuat frustasi.
-
+Di sini lah ((pemrograman)) mungkin bisa hadir. _Pemrograman_ adalah sebuah pekerjaan untuk membangun sebuah _program)_—sebuah kumpulan instruksi-instruksi presisi yang memberitahu komputer apa yang harus ia lakukan. Karena komputer itu monster yang bodoh dan pedantik, pemrograman pada dasarnya sebuah aktivitas yang melelahkan dan membuat frustasi.
 
 {{index [programming, "joy of"], speed}}
 
