@@ -1,34 +1,28 @@
 {{meta {load_files: ["code/intro.js"]}}}
 
-# Introduction
+# Pendahuluan
 
 {{quote {author: "Ellen Ullman", title: "Close to the Machine: Technophilia and Its Discontents", chapter: true}
 
-We think we are creating the system for our own purposes. We believe we are making it in our own image... But the computer is not really like us. It is a projection of a very slim part of ourselves: that portion devoted to logic, order, rule, and clarity.
+Kita berpikir bahwa kita membuat sistem tersebut untuk tujuan kita sendiri. Kita berpikir kita sedang membuatnya dari cerminan diri kita sendiri... Tetapi komputer sebenarnya tidak seperti kita sama sekali. Komputer adalah proyeksi dari bagian kecil saja dari diri kita: yaitu bagian yang berdedikasi terhadap logika, urutan, aturan, dan kejelasan.
 
 quote}}
 
 {{figure {url: "img/chapter_picture_00.jpg", alt: "Illustration of a screwdriver next to a circuit board of about the same size", chapter: "framed"}}}
 
-This is a book about instructing ((computer))s. Computers are about as common as screwdrivers today, but they are quite a bit more complex, and making them do what you want them to do isn't always easy.
+Buku ini adalah mengenai cara memerintah ((komputer)). Saat ini, komputer ada dimana-mana seperti halnya sebuah obeng, tapi mereka memang lebih rumit, dan untuk membuatnya melakukan sesuatu seperti yang kita mau tidaklah selalu mudah.
 
-If the task you have for your computer is a common, well-understood one, such as showing you your email or acting like a calculator, you can open the appropriate ((application)) and get to work. But for unique or open-ended tasks, there often is no appropriate application.
+Jika pekerjaan yang anda berikan kepada komputer adalah pekerjaan yang umum, sangat dipahami orang, seperti halnya menunjukkan surel anda atau beraksi layaknya sebuah kalkulator, anda bisa saja membuka ((aplikasi)) yang cocok untuk pekerjaan itu dan anda bisa langsung bekerja. Tetapi untuk pekerjaan-pekerjaan yang unik atau terbuka akhirnya, seringkali tidak ada aplikasi yang cocok.
 
-That is where ((programming)) may come in. _Programming_ is the act of constructing a _program_—a set of precise instructions telling a computer what to do. Because computers are dumb, pedantic beasts, programming is fundamentally tedious and frustrating.
+Di sini lah ((pemrograman)) mungkin bisa hadir. _Pemrograman_ adalah sebuah pekerjaan untuk membangun sebuah _program)_—sebuah kumpulan instruksi-instruksi presisi yang memberitahu komputer apa yang harus ia lakukan. Karena komputer itu monster yang bodoh dan pedantik, pemrograman pada dasarnya sebuah aktivitas yang melelahkan dan membuat frustasi.
 
-{{index [programming, "joy of"], speed}}
+Untungnya, jika anda bisa mengabaikan fakta tersebut dan bahkan anda bisa menikmati berpikir keras seperti halnya sebuah mesin yang bodoh, maka pemrograman bisa menjadi menyenangkan. Ia memungkinkan anda melakukan sesuatu yang biasanya mengabiskan waktu berjam-jam menjadi selesai hanya dalam hitungan detik. Ia juga cara untuk membuat komputer bisa melakukan hal-hal yang sebelumnya tak bisa mereka lakukan. Selain itu, ia juga bisa menjadi sebuah permainan yang penuh dengan teka-teki dan abstraksi.****
 
-Fortunately, if you can get over that fact—and maybe even enjoy the rigor of thinking in terms that dumb machines can deal with—programming can be rewarding. It allows you to do things in seconds that would take _forever_ by hand. It is a way to make your computer tool do things that it couldn't do before. On top of that, it makes for a wonderful game of puzzle solving and abstract thinking.
+Kebanyakan pemrograman dilakukan dengan ((bahasa pemrograman)). Sebuah _bahasa pemrograman_ adalah sebuah bahasa yang sengaja dibuat untuk memerintahkan komputer melakukan sesuatu. Hal paling menarik dari hal ini adalah kita menemukan bahwa cara untuk berkomunikasi dengan komputer adalah terinspirasi dari cara kita berkomunikasi dengan sesama manusia. Seperti halnya bahasa untuk manusia, bahasa pemrograman memiliki kata-kata dan frasa-frasa yang digabungkan dalam kesatuan yang baru, sehingga membuatnya bisa menjelaskan konsep-konsep yang baru.
 
-Most programming is done with ((programming language))s. A _programming language_ is an artificially constructed language used to instruct computers. It is interesting that the most effective way we've found to communicate with a computer borrows so heavily from the way we communicate with each other. Like human languages, computer languages allow words and phrases to be combined in new ways, making it possible to express ever new concepts.
+Di masa lalu, antar-muka berbasis bahasa seperti BASIC dan DOS di tahun 1980-an dan 1990-an, adalah metode utama untuk berinteraksi dengan komputer. Untuk penggunaan rutin, antar-muka ini telah digantikan oleh antar-muka visual yang lebih mudah dipelajari tapi kurang memberikan kebebasan. Jika anda tahu caranya, bahasa-bahasa tersebut masih tersedia. Salah satu diantaranya, _JavaScript_, disertakan bersama setiap peramban mutakhir dan tersedia di hampir semua perangkat.
 
-{{index [JavaScript, "availability of"], "casual computing"}}
-
-At one point, language-based interfaces, such as the BASIC and DOS prompts of the 1980s and 1990s, were the main method of interacting with computers. For routine computer use, these have largely been replaced with visual interfaces, which are easier to learn but offer less freedom. But if you know where to look, the languages are still there. One of them, _JavaScript_, is built into every modern web ((browser))—and is thus available on almost every device.
-
-{{indexsee "web browser", browser}}
-
-This book will try to make you familiar enough with this language to do useful and amusing things with it.
+Buku ini akan mencoba untuk mengakrabkan anda dengan bahasa ini sehingga anda bisa melakukan hal-hal yang berguna dan menyenangkan dengannya.
 
 ## On programming
 
