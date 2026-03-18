@@ -24,17 +24,17 @@ Di masa lalu, antar-muka berbasis bahasa seperti BASIC dan DOS di tahun 1980-an 
 
 Buku ini akan mencoba untuk mengakrabkan anda dengan bahasa ini sehingga anda bisa melakukan hal-hal yang berguna dan menyenangkan dengannya.
 
-## On programming
+## Mengenai Pemrograman
 
 {{index [programming, "difficulty of"]}}
 
-Besides explaining JavaScript, I will introduce the basic principles of programming. Programming, it turns out, is hard. The fundamental rules are simple and clear, but programs built on top of these rules tend to become complex enough to introduce their own rules and complexity. You're building your own maze, in a way, and you can easily get lost in it.
+Selain menjelaskan JavaScript, Saya akan memperkenalkan prinsip-prinsip dasar pemrograman. Pemrograman itu ternyata sulit. Aturan-aturan dasarnya sebenarnya sederhana dan jelas, tetapi program-program yang dibuat di atas aturan-aturan tersebut cenderung menjadi cukup kompleks sehingga memunculkan aturan-aturan dan kompleksitasnya tersendiri. Anda sebenarnya sedang membangun labirin anda sendiri dan anda bisa dengan mudah tersesat di dalamnya.
 
 {{index learning}}
 
-There will be times when reading this book feels terribly frustrating. If you are new to programming, there will be a lot of new material to digest. Much of this material will then be _combined_ in ways that require you to make additional connections.
+Akan ada saatnya ketika anda membaca buku ini dan merasa frustasi. Jika ada masih pemula dalam pemrograman, anda akan menemui banyak sekali materi baru untuk dicerna. Banyak dari materi ini yang akan digabungkan dengan cara tertentu yang meminta anda untuk membuat hubungan-hubungan baru.
 
-It is up to you to make the necessary effort. When you are struggling to follow the book, do not jump to any conclusions about your own capabilities. You are fine—you just need to keep at it. Take a break, reread some material, and make sure you read and understand the example programs and ((exercises)). Learning is hard work, but everything you learn is yours and will make further learning easier.
+Ini sangat tergantung pada apakah anda mau melakukan usaha yang diperlukan. Ketika anda kesulitan mengikuti buku ini, jangan langsung mengambil kesimpulan mengenai kemampuan anda sendiri. Anda sudah keren-tinggal teruskan saja usahanya. Istirahatlah, baca ulang sebagian materinya, dan pastikan bahwa anda membaca dan mengerti program contoh dan ((latihan)). Belajar butuh kerja keras, namun semua hal yang anda pelajari akan menjadi milik anda sendiri dan akan membuat proses belajar anda di kemudian hari lebih mudah. 
 
 {{quote {author: "Ursula K. Le Guin", title: "The Left Hand of Darkness"}
 
