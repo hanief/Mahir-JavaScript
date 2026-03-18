@@ -29,9 +29,9 @@ html/ejs.js: node_modules/codemirror/dist/index.js \
 # 	rm -f $@
 # 	cd code; zip skillsharing.zip skillsharing/*.mjs skillsharing/package.json skillsharing/public/*.*
 
-code/solutions/20_3_a_public_space_on_the_web.zip: $(wildcard code/solutions/20_3_a_public_space_on_the_web/*)
-	rm -f $@
-	cd code/solutions; zip 20_3_a_public_space_on_the_web.zip 20_3_a_public_space_on_the_web/*
+# code/solutions/20_3_a_public_space_on_the_web.zip: $(wildcard code/solutions/20_3_a_public_space_on_the_web/*)
+# 	rm -f $@
+# 	cd code/solutions; zip 20_3_a_public_space_on_the_web.zip 20_3_a_public_space_on_the_web/*
 
 test: html
 	@for F in $(CHAPTERS); do echo Testing $$F:; node src/run_tests.mjs $$F.md; done
@@ -60,13 +60,13 @@ img/generated/%.pdf: img/%.svg
 pdf/%.tex: %.md
 	node src/render_latex.mjs $< > $@
 
-book.epub: epub/titlepage.xhtml epub/toc.xhtml epub/hints.xhtml $(foreach CHAP,$(CHAPTERS),epub/$(CHAP).xhtml) \
-           epub/content.opf.src epub/style.css src/add_images_to_epub.mjs
-	rm -f $@
-	grep '<img' epub/*.xhtml | sed -e 's/.*src="\([^"]*\)".*/\1/' | xargs -I{} rsync -R "{}" epub
-	node src/add_images_to_epub.mjs
-	cd epub; zip -X ../$@ mimetype
-	cd epub; zip -X ../$@ -r * -x mimetype -x *.src
+# book.epub: epub/titlepage.xhtml epub/toc.xhtml epub/hints.xhtml $(foreach CHAP,$(CHAPTERS),epub/$(CHAP).xhtml) \
+#            epub/content.opf.src epub/style.css src/add_images_to_epub.mjs
+# 	rm -f $@
+# 	grep '<img' epub/*.xhtml | sed -e 's/.*src="\([^"]*\)".*/\1/' | xargs -I{} rsync -R "{}" epub
+# 	node src/add_images_to_epub.mjs
+# 	cd epub; zip -X ../$@ mimetype
+# 	cd epub; zip -X ../$@ -r * -x mimetype -x *.src
 
 epub/toc.xhtml: epub/toc.xhtml.src $(foreach CHAP,$(CHAPTERS),epub/$(CHAP).xhtml) epub/hints.xhtml
 	node src/generate_epub_toc.mjs $^ > $@
