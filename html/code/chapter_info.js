@@ -2,6 +2,16 @@ var chapterData = [
   {
     "number": 0,
     "id": "00_intro",
+    "title": "Introduction",
+    "start_code": "console.log(sum(range(1, 10)));\n",
+    "exercises": [],
+    "include": [
+      "code/intro.js"
+    ]
+  },
+  {
+    "number": 0,
+    "id": "00_pendahuluan",
     "title": "Pendahuluan",
     "start_code": "console.log(sum(range(1, 10)));\n",
     "exercises": [],

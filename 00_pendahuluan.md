@@ -16,7 +16,7 @@ Jika pekerjaan yang anda berikan kepada komputer adalah pekerjaan yang umum, san
 
 Di sini lah ((pemrograman)) mungkin bisa hadir. _Pemrograman_ adalah sebuah pekerjaan untuk membangun sebuah _program)_—sebuah kumpulan instruksi-instruksi presisi yang memberitahu komputer apa yang harus ia lakukan. Karena komputer itu monster yang bodoh dan pedantik, pemrograman pada dasarnya sebuah aktivitas yang melelahkan dan membuat frustasi.
 
-Untungnya, jika anda bisa mengabaikan fakta tersebut dan bahkan anda bisa menikmati berpikir keras seperti halnya sebuah mesin yang bodoh, maka pemrograman bisa menjadi menyenangkan. Ia memungkinkan anda melakukan sesuatu yang biasanya mengabiskan waktu berjam-jam menjadi selesai hanya dalam hitungan detik. Ia juga cara untuk membuat komputer bisa melakukan hal-hal yang sebelumnya tak bisa mereka lakukan. Selain itu, ia juga bisa menjadi sebuah permainan yang penuh dengan teka-teki dan abstraksi.****
+Untungnya, jika anda bisa mengabaikan fakta tersebut dan bahkan anda bisa menikmati berpikir keras seperti halnya sebuah mesin yang bodoh, maka pemrograman bisa menjadi menyenangkan. Ia memungkinkan anda melakukan sesuatu yang biasanya mengabiskan waktu berjam-jam menjadi selesai hanya dalam hitungan detik. Ia juga cara untuk membuat komputer bisa melakukan hal-hal yang sebelumnya tak bisa mereka lakukan. Selain itu, ia juga bisa menjadi sebuah permainan yang penuh dengan teka-teki dan abstraksi.\*\*\*\*
 
 Kebanyakan pemrograman dilakukan dengan ((bahasa pemrograman)). Sebuah _bahasa pemrograman_ adalah sebuah bahasa yang sengaja dibuat untuk memerintahkan komputer melakukan sesuatu. Hal paling menarik dari hal ini adalah kita menemukan bahwa cara untuk berkomunikasi dengan komputer adalah terinspirasi dari cara kita berkomunikasi dengan sesama manusia. Seperti halnya bahasa untuk manusia, bahasa pemrograman memiliki kata-kata dan frasa-frasa yang digabungkan dalam kesatuan yang baru, sehingga membuatnya bisa menjelaskan konsep-konsep yang baru.
 
@@ -92,15 +92,15 @@ Of course, manually entering these arcane patterns of bits (the ones and zeros) 
 
 Each line of the previous program contains a single instruction. It could be written in English like this:
 
- 1. Store the number 0 in memory location 0.
- 2. Store the number 1 in memory location 1.
- 3. Store the value of memory location 1 in memory location 2.
- 4. Subtract the number 11 from the value in memory location 2.
- 5. If the value in memory location 2 is the number 0, continue with instruction 9.
- 6. Add the value of memory location 1 to memory location 0.
- 7. Add the number 1 to the value of memory location 1.
- 8. Continue with instruction 3.
- 9. Output the value of memory location 0.
+1.  Store the number 0 in memory location 0.
+2.  Store the number 1 in memory location 1.
+3.  Store the value of memory location 1 in memory location 2.
+4.  Subtract the number 11 from the value in memory location 2.
+5.  If the value in memory location 2 is the number 0, continue with instruction 9.
+6.  Add the value of memory location 1 to memory location 0.
+7.  Add the number 1 to the value of memory location 1.
+8.  Continue with instruction 3.
+9.  Output the value of memory location 0.
 
 {{index readability, naming, binding}}
 
