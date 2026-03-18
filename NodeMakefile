@@ -42,6 +42,7 @@ tex: $(foreach CHAP,$(CHAPTERS),pdf/$(CHAP).tex) pdf/hints.tex $(patsubst img/%.
 
 book.pdf: tex pdf/book.tex src/build_book_pdf.mjs
 	node src/build_book_pdf.mjs book book.pdf
+	cp book.pdf html/Mahir_JavaScript.pdf
 
 pdf/book_mobile.tex: pdf/book.tex src/build_mobile_tex.mjs
 	node src/build_mobile_tex.mjs pdf/book.tex pdf/book_mobile.tex
@@ -62,6 +63,7 @@ book.epub: epub/titlepage.xhtml epub/toc.xhtml epub/hints.xhtml $(foreach CHAP,$
            epub/content.opf.src epub/style.css src/build_epub.mjs
 	rm -f $@
 	node src/build_epub.mjs $@
+	cp book.epub html/Mahir_JavaScript.epub
 
 epub/toc.xhtml: epub/toc.xhtml.src $(foreach CHAP,$(CHAPTERS),epub/$(CHAP).xhtml) epub/hints.xhtml
 	node src/generate_epub_toc.mjs $^ > $@
@@ -77,3 +79,4 @@ epubcheck: book.epub
 
 book.mobi: book.epub img/cover.jpg
 	ebook-convert book.epub book.mobi --output-profile=kindle --cover=img/cover.jpg --remove-first-image
+	cp book.mobi html/Mahir_JavaScript.mobi
