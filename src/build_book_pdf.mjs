@@ -11,7 +11,13 @@ if (!name || !output) {
 
 function run(command, args) {
   let result = spawnSync(command, args, {cwd: "pdf", stdio: "inherit"});
-  if (result.error) throw result.error;
+  if (result.error) {
+    if (result.error.code == "ENOENT" || result.error.code == "EACCES") {
+      console.error(`Required command is unavailable: ${command}`);
+      process.exit(1);
+    }
+    throw result.error;
+  }
   if (result.status) process.exit(result.status);
 }
 
