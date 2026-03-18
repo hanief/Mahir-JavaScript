@@ -60,13 +60,13 @@ img/generated/%.pdf: img/%.svg
 pdf/%.tex: %.md
 	node src/render_latex.mjs $< > $@
 
-# book.epub: epub/titlepage.xhtml epub/toc.xhtml epub/hints.xhtml $(foreach CHAP,$(CHAPTERS),epub/$(CHAP).xhtml) \
-#            epub/content.opf.src epub/style.css src/add_images_to_epub.mjs
-# 	rm -f $@
-# 	grep '<img' epub/*.xhtml | sed -e 's/.*src="\([^"]*\)".*/\1/' | xargs -I{} rsync -R "{}" epub
-# 	node src/add_images_to_epub.mjs
-# 	cd epub; zip -X ../$@ mimetype
-# 	cd epub; zip -X ../$@ -r * -x mimetype -x *.src
+book.epub: epub/titlepage.xhtml epub/toc.xhtml epub/hints.xhtml $(foreach CHAP,$(CHAPTERS),epub/$(CHAP).xhtml) \
+           epub/content.opf.src epub/style.css src/add_images_to_epub.mjs
+	rm -f $@
+	grep '<img' epub/*.xhtml | sed -e 's/.*src="\([^"]*\)".*/\1/' | xargs -I{} rsync -R "{}" epub
+	node src/add_images_to_epub.mjs
+	cd epub; node ../src/make_zip.mjs ../$@ mimetype
+	cd epub; node ../src/make_zip.mjs ../$@ -r * -x mimetype -x *.src
 
 epub/toc.xhtml: epub/toc.xhtml.src $(foreach CHAP,$(CHAPTERS),epub/$(CHAP).xhtml) epub/hints.xhtml
 	node src/generate_epub_toc.mjs $^ > $@
