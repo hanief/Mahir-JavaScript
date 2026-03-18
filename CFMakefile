@@ -25,13 +25,13 @@ html/ejs.js: node_modules/codemirror/dist/index.js \
 	     src/client/*.mjs
 	node_modules/.bin/rollup -c src/client/rollup.config.mjs
 
-# code/skillsharing.zip: html/21_skillsharing.html code/skillsharing/package.json
-# 	rm -f $@
-# 	cd code; zip skillsharing.zip skillsharing/*.mjs skillsharing/package.json skillsharing/public/*.*
+code/skillsharing.zip: html/21_skillsharing.html code/skillsharing/package.json
+	rm -f $@
+	cd code; node ../src/make_zip.mjs skillsharing.zip skillsharing/*.mjs skillsharing/package.json skillsharing/public/*.*
 
-# code/solutions/20_3_a_public_space_on_the_web.zip: $(wildcard code/solutions/20_3_a_public_space_on_the_web/*)
-# 	rm -f $@
-# 	cd code/solutions; zip 20_3_a_public_space_on_the_web.zip 20_3_a_public_space_on_the_web/*
+code/solutions/20_3_a_public_space_on_the_web.zip: $(wildcard code/solutions/20_3_a_public_space_on_the_web/*)
+	rm -f $@
+	cd code/solutions; node ../../src/make_zip.mjs 20_3_a_public_space_on_the_web.zip 20_3_a_public_space_on_the_web/*
 
 test: html
 	@for F in $(CHAPTERS); do echo Testing $$F:; node src/run_tests.mjs $$F.md; done
