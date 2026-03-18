@@ -9,8 +9,25 @@ if (!name || !output) {
   process.exit(1);
 }
 
+function texBinDirs() {
+  let dirs = ["/Library/TeX/texbin", "/usr/texbin"];
+  let root = "/usr/local/texlive";
+  if (fs.existsSync(root)) {
+    for (let entry of fs.readdirSync(root)) {
+      let binDir = path.join(root, entry, "bin", "universal-darwin");
+      if (fs.existsSync(binDir)) dirs.push(binDir);
+    }
+  }
+  return dirs;
+}
+
+let env = {
+  ...process.env,
+  PATH: [...texBinDirs(), process.env.PATH || ""].join(":")
+};
+
 function run(command, args) {
-  let result = spawnSync(command, args, {cwd: "pdf", stdio: "inherit"});
+  let result = spawnSync(command, args, {cwd: "pdf", stdio: "inherit", env});
   if (result.error) {
     if (result.error.code == "ENOENT" || result.error.code == "EACCES") {
       console.error(`Required command is unavailable: ${command}`);

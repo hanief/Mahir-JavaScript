@@ -10,11 +10,25 @@
 \usepackage{fontspec}
 \usepackage{xcolor}
 \usepackage{pdfpages}
-\usepackage{arabxetex}
 \usepackage{makeidx}
+\IfFontExistsTF{Geeza Pro}{
+  \newfontfamily{\arabicfont}{Geeza Pro}
+}{
+  \newfontfamily{\arabicfont}{Times New Roman}
+}
+\newcommand{\textarab}[1]{{\arabicfont #1}}
 
-% epigraph is used to style chapter quotes
-\usepackage{epigraph}
+\newlength{\epigraphwidth}
+\newlength{\epigraphrule}
+\newcommand{\epigraph}[2]{%
+  \begin{flushright}
+    \begin{minipage}{.8\textwidth}
+      \itshape #1\par
+      \raggedleft #2
+    \end{minipage}
+  \end{flushright}
+}
+\newcommand{\epigraphhead}[2][]{#2}
 \setlength{\epigraphwidth}{.8\textwidth}
 \setlength{\epigraphrule}{0pt}
 
@@ -43,13 +57,29 @@
 
 \setcounter{secnumdepth}{0}
 \setcounter{tocdepth}{1}
-\setmonofont[Scale=0.8]{Inconsolata LGC}
+\IfFontExistsTF{Inconsolata LGC}{
+  \setmonofont[Scale=0.8]{Inconsolata LGC}
+}{
+  \setmonofont[Scale=0.8]{Inconsolata}
+}
 \defaultfontfeatures[\emojifont]{Scale=1.15}
-\newfontface{\emojifont}{Symbola_hint.ttf}
-\newfontfamily{\cjkfont}{TW-Sung}
+\IfFontExistsTF{Symbola_hint.ttf}{
+  \newfontface{\emojifont}{Symbola_hint.ttf}
+}{
+  \newfontface{\emojifont}{Apple Symbols}
+}
+\IfFontExistsTF{TW-Sung}{
+  \newfontfamily{\cjkfont}{TW-Sung}
+}{
+  \newfontfamily{\cjkfont}{Songti TC}
+}
 \setTransitionsFor{MiscellaneousSymbolsAndPictographs}{\emojifont}{\normalfont}{}
 
-\newfontfamily{\cinzel}{Cinzel}
+\IfFontExistsTF{Cinzel}{
+  \newfontfamily{\cinzel}{Cinzel}
+}{
+  \newfontfamily{\cinzel}{Times New Roman}
+}
 \setkomafont{disposition}{\bfseries\cinzel}
 \definecolor{silver-chalice}{HTML}{AAAAAA}
 \setkomafont{chapterprefix}{\small\color{silver-chalice}}
@@ -57,12 +87,14 @@
 
 \pagestyle{plain}
 
-\usepackage{newunicodechar}
-\newunicodechar{π}{$\pi$}
-\newunicodechar{ϕ}{$\varphi$}
-\newunicodechar{≈}{$\approx$}
-\newunicodechar{β}{\ss}
-\newunicodechar{⮪}{\emojifont{⮪}}
+\IfFileExists{newunicodechar.sty}{
+  \usepackage{newunicodechar}
+  \newunicodechar{π}{$\pi$}
+  \newunicodechar{ϕ}{$\varphi$}
+  \newunicodechar{≈}{$\approx$}
+  \newunicodechar{β}{\ss}
+  \newunicodechar{⮪}{\emojifont{⮪}}
+}{}
 
 \graphicspath{{../}}
 \definecolor{coveryellow}{rgb}{0.997,0.840,0.122}
