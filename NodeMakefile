@@ -49,6 +49,7 @@ pdf/book_mobile.tex: pdf/book.tex src/build_mobile_tex.mjs
 
 book_mobile.pdf: pdf/book_mobile.tex tex src/build_book_pdf.mjs
 	node src/build_book_pdf.mjs book_mobile book_mobile.pdf
+	cp book_mobile.pdf html/Mahir_JavaScript_mobile.pdf
 
 pdf/hints.tex: $(foreach CHAP,$(CHAPTERS),$(CHAP).md) src/extract_hints.mjs
 	node src/extract_hints.mjs | node src/render_latex.mjs - > $@
