@@ -34,19 +34,21 @@ Selain menjelaskan JavaScript, Saya akan memperkenalkan prinsip-prinsip dasar pe
 
 Akan ada saatnya ketika anda membaca buku ini dan merasa frustasi. Jika ada masih pemula dalam pemrograman, anda akan menemui banyak sekali materi baru untuk dicerna. Banyak dari materi ini yang akan digabungkan dengan cara tertentu yang meminta anda untuk membuat hubungan-hubungan baru.
 
-Ini sangat tergantung pada apakah anda mau melakukan usaha yang diperlukan. Ketika anda kesulitan mengikuti buku ini, jangan langsung mengambil kesimpulan mengenai kemampuan anda sendiri. Anda sudah keren-tinggal teruskan saja usahanya. Istirahatlah, baca ulang sebagian materinya, dan pastikan bahwa anda membaca dan mengerti program contoh dan ((latihan)). Belajar butuh kerja keras, namun semua hal yang anda pelajari akan menjadi milik anda sendiri dan akan membuat proses belajar anda di kemudian hari lebih mudah. 
+Ini sangat tergantung pada apakah anda mau melakukan usaha yang diperlukan. Ketika anda kesulitan mengikuti buku ini, jangan langsung mengambil kesimpulan mengenai kemampuan anda sendiri. Anda sudah keren-tinggal teruskan saja usahanya. Istirahatlah, baca ulang sebagian materinya, dan pastikan bahwa anda membaca dan mengerti program contoh dan ((latihan)). Belajar butuh kerja keras, namun semua hal yang anda pelajari akan menjadi milik anda sendiri dan akan membuat proses belajar anda di kemudian hari lebih mudah.
 
 {{quote {author: "Ursula K. Le Guin", title: "The Left Hand of Darkness"}
 
 {{index "Le Guin, Ursula K."}}
 
-When action grows unprofitable, gather information; when information grows unprofitable, sleep.
+Ketika aksi tumbuh tanpa untung, kumpulkan informasi; ketika informasi tumbuh tanpa untung, tidurlah.
 
 quote}}
 
 {{index [program, "nature of"], data}}
 
-A program is many things. It is a piece of text typed by a programmer, it is the directing force that makes the computer do what it does, it is data in the computer's memory, and, at the same time, it controls the actions performed on this memory. Analogies that try to compare programs to familiar objects tend to fall short. A superficially fitting one is to compare a program to a machine—lots of separate parts tend to be involved, and to make the whole thing tick, we have to consider the ways in which these parts interconnect and contribute to the operation of the whole.
+Sebuah program bisa berupa banyak hal. Ia adalah sebuah tulisan karya seorang _programmer_, yang mengarahkan sebuah komputer agar melakukan tugasnya, sebuah data di ingatan komputer, dan pada saat yang bersamaan, mengendalikan aksi yang dilakukan pada ingatan ini. Analogi-analogi yang mencoba membandingkan program dengan barang-barang sehari-hari lain biasanya tidak cocok. Sebuah analogi yang agak cocok secara permukaan adalah yang membandingkan program dengan sebuah mesin dimana terdapat banyak bagian dan untuk membuat mesin tersebut berjalan, kita harus mempertimbangkan bagaimana bagian-bagian tersebut saling berhubungan dan bagaimana mereka bisa berkontribusi kepada seluruh operasinya.
+
+Sebuah komputer adalah mesin fisik yang bertindak sebagai tuan rumah bagi mesin-mesin abstrak ini. Komputer itu sendiri bodoh, dia hanya bisa melakukan hal-hal yang didefinisikan dengan jelas. Komputer itu bermanfaat hanya karena mereka bisa melakukan hal-hal tersebut dengan amat sangat cepat. Sebuah program bisa dengan cerdas menggabungkan aksi-aksi sederhana tersebut untuk melakukan hal-hal yang yang rumit.
 
 A ((computer)) is a physical machine that acts as a host for these immaterial machines. Computers themselves can do only stupidly straightforward things. The reason they are so useful is that they do these things at an incredibly high ((speed)). A program can ingeniously combine an enormous number of these simple actions to do very complicated things.
 
