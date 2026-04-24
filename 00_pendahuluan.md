@@ -34,7 +34,7 @@ Selain menjelaskan JavaScript, Saya akan memperkenalkan prinsip-prinsip dasar pe
 
 Akan ada saatnya ketika anda membaca buku ini dan merasa frustasi. Jika ada masih pemula dalam pemrograman, anda akan menemui banyak sekali materi baru untuk dicerna. Banyak dari materi ini yang akan digabungkan dengan cara tertentu yang meminta anda untuk membuat hubungan-hubungan baru.
 
-Ini sangat tergantung pada apakah anda mau melakukan usaha yang diperlukan. Ketika anda kesulitan mengikuti buku ini, jangan langsung mengambil kesimpulan mengenai kemampuan anda sendiri. Anda sudah keren-tinggal teruskan saja usahanya. Istirahatlah, baca ulang sebagian materinya, dan pastikan bahwa anda membaca dan mengerti program contoh dan ((latihan)). Belajar butuh kerja keras, namun semua hal yang anda pelajari akan menjadi milik anda sendiri dan akan membuat proses belajar anda di kemudian hari lebih mudah.
+Ini sangat tergantung pada apakah anda mau melakukan usaha yang diperlukan. Ketika anda kesulitan mengikuti buku ini, jangan langsung mengambil kesimpulan mengenai kemampuan anda sendiri. Anda sudah keren - tinggal teruskan saja usahanya. Istirahatlah, baca ulang sebagian materinya, dan pastikan bahwa anda membaca dan mengerti program contoh dan ((latihan)). Belajar butuh kerja keras, namun semua hal yang anda pelajari akan menjadi milik anda sendiri dan akan membuat proses belajar anda di kemudian hari lebih mudah.
 
 {{quote {author: "Ursula K. Le Guin", title: "The Left Hand of Darkness"}
 
@@ -50,11 +50,9 @@ Sebuah program bisa berupa banyak hal. Ia adalah sebuah tulisan karya seorang _p
 
 Sebuah komputer adalah mesin fisik yang bertindak sebagai tuan rumah bagi mesin-mesin abstrak ini. Komputer itu sendiri bodoh, dia hanya bisa melakukan hal-hal yang didefinisikan dengan jelas. Komputer itu bermanfaat hanya karena mereka bisa melakukan hal-hal tersebut dengan amat sangat cepat. Sebuah program bisa dengan cerdas menggabungkan aksi-aksi sederhana tersebut untuk melakukan hal-hal yang yang rumit.
 
-A ((computer)) is a physical machine that acts as a host for these immaterial machines. Computers themselves can do only stupidly straightforward things. The reason they are so useful is that they do these things at an incredibly high ((speed)). A program can ingeniously combine an enormous number of these simple actions to do very complicated things.
-
 {{index [programming, "joy of"]}}
 
-A program is a building of thought. It is costless to build, it is weightless, and it grows easily under our typing hands. But as a program grows, so does its ((complexity)). The skill of programming is the skill of building programs that don't confuse the programmer. The best programs are those that manage to do something interesting while still being easy to understand.
+Sebuah program adalah bangunan pemikiran. Murah untuk dibangun, tak memiliki berat, dan bisa tumbuh dengan mudah dengan ketikan tangan kita. Tetapi, seiring dengan tumbuhnya program kita, begitu pula kompleksitasnya. Keahlian pemrograman adalah keahlian membuat program yang tidak membuat pemrogram lainnya kebingungan dengan program itu. Program yang terbaik adalah program yang melakukan hal yang menarik sambil tetap mudah dipahami.
 
 {{index "programming style", "best practices"}}
 
