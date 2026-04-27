@@ -56,11 +56,11 @@ Sebuah program adalah bangunan pemikiran. Murah untuk dibangun, tak memiliki ber
 
 {{index "programming style", "best practices"}}
 
-Some programmers believe that this complexity is best managed by using only a small set of well-understood techniques in their programs. They have composed strict rules ("best practices") prescribing the form programs should have and carefully stay within their safe little zone.
+Sebagian pemrogram meyakini bahwa kerumitan tersebut bisa ditangani dengan menggunakan beberapa teknik-teknik yang mereka pahami. Mereka memiliki aturan baku ("praktek terbaik") yang menjadi resep untuk membangun program dengan benar, dan mereka setia di dalam zona aman yang kecil itu.
 
 {{index experiment}}
 
-This is not only boring—it is ineffective. New problems often require new solutions. The field of programming is young and still developing rapidly, and it is varied enough to have room for wildly different approaches. There are many terrible mistakes to make in program design, and you should go ahead and make them at least once so that you understand them. A sense of what a good program looks like is developed with practice, not learned from a list of rules.
+Ini sebenarnya bukan hanya membosankan, tapi juga tidak efektif. Masalah-masalah baru seringkali membutuhkan penyelesaian-penyelesaian baru. Disiplin ilmu pemrograman masih muda dan terus berkembang dengan cepat. Bidang ilmunya cukup bervariasi sehingga membuka ruang untuk pendekatan-pendekatan sangat berbeda satu sama lain. Ada banyak sekali kesalahan yang buruk dalam rancangan sebuah program, sehingga anda seharusnya melakukan kesalahan tersebut paling tidak sekali untuk memahaminya. Naluri untuk memahami bagaimana bentuk sebuah program yang bagus itu bisa terbentuk dengan latihan, bukan dengan belajar dari daftar aturan.
 
 ## Why language matters
 
