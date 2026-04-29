@@ -62,11 +62,11 @@ Sebagian pemrogram meyakini bahwa kerumitan tersebut bisa ditangani dengan mengg
 
 Ini sebenarnya bukan hanya membosankan, tapi juga tidak efektif. Masalah-masalah baru seringkali membutuhkan penyelesaian-penyelesaian baru. Disiplin ilmu pemrograman masih muda dan terus berkembang dengan cepat. Bidang ilmunya cukup bervariasi sehingga membuka ruang untuk pendekatan-pendekatan sangat berbeda satu sama lain. Ada banyak sekali kesalahan yang buruk dalam rancangan sebuah program, sehingga anda seharusnya melakukan kesalahan tersebut paling tidak sekali untuk memahaminya. Naluri untuk memahami bagaimana bentuk sebuah program yang bagus itu bisa terbentuk dengan latihan, bukan dengan belajar dari daftar aturan.
 
-## Why language matters
+## Mengapa bahasa itu penting
 
 {{index "programming language", "machine code", "binary data"}}
 
-In the beginning, at the birth of computing, there were no programming languages. Programs looked something like this:
+Pada awal kelahiran komputer, belum ada bahasa pemrograman. Program saat itu berbentuk seperti ini:
 
 ```{lang: null}
 00110001 00000000 00000000
@@ -82,7 +82,7 @@ In the beginning, at the birth of computing, there were no programming languages
 
 {{index [programming, "history of"], "punch card", complexity}}
 
-This is a program to add the numbers from 1 to 10 together and print the result: `1 + 2 + ... + 10 = 55`. It could run on a simple hypothetical machine. To program early computers, it was necessary to set large arrays of switches in the right position or punch holes in strips of cardboard and feed them to the computer. You can imagine how tedious and error prone this procedure was. Even writing simple programs required much cleverness and discipline. Complex ones were nearly inconceivable.
+Ini adalah program untuk menambahkan bilangan dari 1 sampai 10 dan mencetak hasilnya: `1 + 2 + ... + 10 = 55`. Program ini bisa berjalan pada sebuah mesin hipotetis. Untuk memprogram komputer di masa-masa awal, anda harus menyediakan sekumpulan besar saklar dengan urutan yang benar atau menyiapkan lubang pukul (_punch hole_) dalam selembar papan untuk dimasukkan ke dalam komputer. Anda bisa membayangkan betapa repot dan rawan kesalahan prosedur ini. Untuk menulis sebuah program sederhana saja, harus dengan kepandaian dan disiplin yang tinggi. Apatah lagi jika programnya kompleks.
 
 {{index bit, "wizard (mighty)"}}
 
