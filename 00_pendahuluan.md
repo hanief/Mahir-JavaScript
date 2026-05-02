@@ -86,21 +86,21 @@ Ini adalah program untuk menambahkan bilangan dari 1 sampai 10 dan mencetak hasi
 
 {{index bit, "wizard (mighty)"}}
 
-Of course, manually entering these arcane patterns of bits (the ones and zeros) did give the programmer a profound sense of being a mighty wizard. And that has to be worth something in terms of job satisfaction.
+Tentu saja, memasukkan pola-pola bit kuno ini secara manual membuat pemrogram merasa layaknya penyihir. Hal ini sedikit banyak berkontribusi terhadap kepuasan bekerja.
 
 {{index memory, instruction}}
 
-Each line of the previous program contains a single instruction. It could be written in English like this:
+Tiap baris dari program di atas mengandung instruksi tunggal. Ia dapat ditulis dalam bahasa Indonesia seperti ini:
 
-1.  Store the number 0 in memory location 0.
-2.  Store the number 1 in memory location 1.
-3.  Store the value of memory location 1 in memory location 2.
-4.  Subtract the number 11 from the value in memory location 2.
-5.  If the value in memory location 2 is the number 0, continue with instruction 9.
-6.  Add the value of memory location 1 to memory location 0.
-7.  Add the number 1 to the value of memory location 1.
-8.  Continue with instruction 3.
-9.  Output the value of memory location 0.
+1. Simpan angka 0 di lokasi memori 0.
+2. Simpan angka 1 di lokasi memori 1.
+3. Simpan nilai dari lokasi memori 1 di lokasi memori 2.
+4. Kurangi angka 11 dari nilai lokasi memori 2.
+5. Jika nilai lokasi memori 2 adalah 0, lanjutkan dengan instruksi 9.
+6. Tambahkan nilai lokasi memori 1 ke lokasi memori 0.
+7. Tambahkan angka 1 ke nilai lokasi memori 1.
+8. Lanjutkan dengan instruksi 3.
+9. Keluarkan nilai lokasi memori 0.
 
 {{index readability, naming, binding}}
 
